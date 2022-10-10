@@ -1,0 +1,79 @@
+.nav-area {
+    background-image: linear-gradient(to top, rgba(255,0,0,0) 24%, rgba(0, 0, 0, 0.575));
+    position: fixed;
+    height: 68px;
+    width: 100%;
+    background-color: linear;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 54px;
+    padding-right: 54px;
+    z-index: 5;
+}
+.frist-nav{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 26px;
+}
+
+.pages-link ul {
+    list-style: none;
+    display: flex;
+    color: rgb(233, 233, 233);
+    gap: 24px;
+    cursor: pointer;
+}
+.pages-link ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+.pages-link ul li a {
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.second-nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img {
+    height: 30px;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 220px;
+    opacity: 1;
+    padding-left: 10px;
+    height: 30px;
+    transition: 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.719);
+    outline: none;
+    color: white;
+
+}
+.imgInput img{
+    cursor: pointer;
+    width: 20px;
+    right: 32px;
+    top: 3px;
+    position: relative;
+}
+@media (max-width: 600px) {
+
+    .nav-area {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
